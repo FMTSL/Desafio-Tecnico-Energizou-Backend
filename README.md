@@ -1,2 +1,2 @@
 # Desafio Técnico - Energizou (Backend)
-Desafio técnico para Vaga Estágio Desenvolvedor Fullstack na Energizou.
+Desafio técnico para vaga de Desenvolvedor Fullstack na Energizou.
