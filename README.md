@@ -30,3 +30,23 @@ A página é recarregada a cada alteração, graçar a implementação do `Nodem
 - Utilizando o banco de dados relacional MySQL, crei um banco de dados no qual nomeei como `crud_empresas`, possuindo uma tabela nomeada de `empresas`. Nesta tabela, atribui os campos atendendo o que foi solicitado no desafio, tendo um total de dez campos, sendo eles: `idEmpresas`, `nomeCliente`, `senha`, `nomeEmpresa`, `cnpj`, `cep`, `endereco`, `numeroEndereco`, `telefone` e `email`, conforme ilustra a imagem do diagrama abaixo:
 
  <img src="https://user-images.githubusercontent.com/88333095/280485441-bab5266e-cbc7-4f43-b155-231908fe9f70.png"/>
+
+ ## Conexão com o Banco de Dados
+
+ - Para realizar a conexão da API RESTful com o MySQL, criei um arquivo `db.js` e informei as informação necessárias para acesso ao banco de dados, conforme código abaixo:
+ 
+```javascript
+  //Configuração do Banco de Dados
+import mysql from "mysql";
+
+export const db = mysql.createConnection({
+    host: "localhost",
+    user: "root",
+    password: "root",
+    database: "crud_empresas"
+});
+```
+
+
+
+
