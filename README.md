@@ -163,3 +163,24 @@ export const db = mysql.createConnection({
         });
         };
 ```
+
+## Insomnia
+
+- Foi utilizado para desenvolvimento/teste o framework Open Source de API REST, Insomnia.
+
+### Create - Método Post
+
+![Create](https://github.com/FMTSL/Desafio-Tecnico-Energizou-Backend/assets/88333095/7438313c-c528-40d5-af08-3cad7b570396)
+
+### Read - Método Get
+
+![Read](https://github.com/FMTSL/Desafio-Tecnico-Energizou-Backend/assets/88333095/25912495-4590-4ee3-970a-52d71ef90fd6)
+
+### Update - Método Put
+
+![Delete](https://github.com/FMTSL/Desafio-Tecnico-Energizou-Backend/assets/88333095/1ec3e4f0-af3d-495c-a66b-617a25e62507)
+
+
+![Update](https://github.com/FMTSL/Desafio-Tecnico-Energizou-Backend/assets/88333095/06150664-f8e2-4870-8fa9-a0dd5fb5a037)
+
+### Delete - Método Delete
