@@ -23,7 +23,7 @@ No diretório do projeto, execute o comando `npm start`, para que seja executado
 Executa o aplicativo no modo de desenvolvimento.
 Abra http://localhost:3000 para visualização do `JSON` em seu navegador.
 
-A página é recarregada a cada alteração, graçar a implementação do `Nodemon`, um utilitário que monitora as mudanças nos arquivos do projeto feito em Node.js, reiniciando o servidor. 
+A página é recarregada a cada alteração, graças a implementação do `Nodemon`, um utilitário que monitora as mudanças nos arquivos do projeto feito em Node.js, reiniciando o servidor. 
 
 ## Modelo Entidade Relacionamento
 
