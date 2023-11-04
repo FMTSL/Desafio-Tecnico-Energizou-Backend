@@ -180,7 +180,6 @@ export const db = mysql.createConnection({
 
 ![Delete](https://github.com/FMTSL/Desafio-Tecnico-Energizou-Backend/assets/88333095/1ec3e4f0-af3d-495c-a66b-617a25e62507)
 
+### Delete - Método Delete
 
 ![Update](https://github.com/FMTSL/Desafio-Tecnico-Energizou-Backend/assets/88333095/06150664-f8e2-4870-8fa9-a0dd5fb5a037)
-
-### Delete - Método Delete
