@@ -46,6 +46,27 @@ export const db = mysql.createConnection({
     database: "crud_empresas"
 });
 ```
+## Rotas
+
+- Foi criado uma pasta nomeada como `routes` para controlar as rotas do CRUD, dentro do arquvido chamado `users.js`.
+
+```javascript
+ //Configuração de Rotas!
+ import express from "express";
+ import { getUsers, addUser, updateUser, deleteUser } from "../controllers/user.js";
+ 
+ const router = express.Router();
+ 
+ router.get("/", getUsers); //Rota para GET
+ 
+ router.post("/", addUser); //Rota para POST
+ 
+ router.put("/:idEmpresas", updateUser); //Rota para PUT
+ 
+ router.delete("/:idEmpresas", deleteUser); //Rota para DELETE
+ 
+ export default router; 
+```
 
 
 
