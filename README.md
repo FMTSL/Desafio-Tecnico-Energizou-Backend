@@ -17,7 +17,7 @@ Desafio técnico para vaga de Desenvolvedor Fullstack na Energizou.
 
 Foi realizada a instalação do `NPM` para que fosse gerenciado os pacotes do Node.js. 
 
-No diretório do projeto, você execute o comando `npm start`, para que seja executado o código no modo de desenvolvimento.
+No diretório do projeto, execute o comando `npm start`, para que seja executado o código no modo de desenvolvimento.
 - Acesse [http://localhost:3000](http://localhost:3000) para visualizá-lo em seu navegador.
 
 Executa o aplicativo no modo de desenvolvimento.
